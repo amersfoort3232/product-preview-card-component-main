@@ -1,0 +1,70 @@
+body {
+    background-color: #eeeee4;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .column {
+    display:grid;
+    width: 30%;
+    /*border: 3px solid green;*/
+    min-height: 55vh;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .column img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    max-height: 100vh;
+
+  }
+  name {
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    color: hsl(212, 21%, 14%);
+  }
+
+  category {
+    font-family: 'Montserrat', sans-serif;
+    color: grey
+  }
+
+  desc {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  price {
+    margin:3ch;
+  }
+
+  discounted{
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+  }
+  
+  original {
+    text-decoration: line-through;
+    margin: 3ch;
+  }
+
+  button {
+    margin: 0 5ch 0 5ch;
+    background-color: darkgreen;
+    border-radius: 5ch;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+  }
